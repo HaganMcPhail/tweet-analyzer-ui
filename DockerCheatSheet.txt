@@ -1,0 +1,30 @@
+To run tweet-analyzer-ui container:
+1) Navigate to home directory
+2) $ docker build -t tweet-analyzer-ui .
+3) docker run -it -p 8080:80 tweet-analyzer-ui
+4) visit http://localhost:8080/
+
+Expect to see the search ui for the project
+
+----
+
+Check list of images:
+$ docker image ls
+
+Check list of containers:
+$ docker container ls
+
+Build image from Dockerfile:
+$ docker build -t {tagname-for-image} {path/to/Dockerfile/Directory} (not including dockerfile itself)
+
+Run container from image:
+$ docker run tagname
+    - --rm to remove container after running
+    - --name {name-of-container} to name container. Else random name like jumping-wolf will be made
+
+Remove image
+$ docker image rm {image-name}
+    - $ docker image prune (removes all images)
+
+Remove container
+$ docker container rm (container-name) (can remove multiple with space-separated list)
