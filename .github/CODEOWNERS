@@ -1,0 +1,24 @@
+# CODEOWNERS lists which teams are largely responsible for areas of code in the repository
+# see https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners
+# for further details
+
+/app/serializers/                                  @modernmsg/core
+/app/controllers/application_controller.rb         @modernmsg/core
+/app/controllers/authentication_controller.rb      @modernmsg/core
+/app/controllers/sso_controller.rb                 @modernmsg/core
+/app/controllers/api/application_controller.rb     @modernmsg/core
+/app/controllers/api/external_controller.rb        @modernmsg/core
+/app/mailers/application_mailer.rb                 @modernmsg/core
+/app/models/application_record.rb                  @modernmsg/core
+/app/workers/application_worker.rb                 @modernmsg/core
+/config/                                           @modernmsg/core
+/db/archive/                                       @modernmsg/core
+/db/migrate/                                       @modernmsg/core
+/db/structure.sql                                  @modernmsg/core
+/db/views/                                         @modernmsg/core
+/spec/spec_helper.rb                               @modernmsg/core
+Gemfile                                            @modernmsg/core
+Gemfile.lock                                       @modernmsg/core
+/.circleci/                                        @modernmsg/core
+/.containerdev/                                    @modernmsg/core
+/.containerprod/                                   @modernmsg/core
