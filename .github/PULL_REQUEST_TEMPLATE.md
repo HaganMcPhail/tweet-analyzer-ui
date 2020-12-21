@@ -24,6 +24,10 @@
 
 <!-- Are they the same as the testing instructions? What does QA need to do with this in order for it to be accepted and merged? If no QA, please note here -->
 
+## Release Instructions
+
+<!-- When should this be released? Are there dependencies? Is there a team that needs to approve the release? (ex. "No dependancies: Deploy when QA passes", "Check with CS team before deployment", "DEPENDENCIES: Do Not Deploy") -->
+
 ## Deploy checklist
 
 - [ ] Engineering review signed off by: 
